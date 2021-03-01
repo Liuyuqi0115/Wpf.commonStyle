@@ -6,7 +6,30 @@
              xmlns:local="clr-namespace:Wpf.CommonStyle.Control"
              mc:Ignorable="d" 
              d:DesignHeight="450" d:DesignWidth="800">
-    <Grid>
-            
+    <Grid >
+        <Grid.RowDefinitions>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+        <TextBlock Text="默认样式"></TextBlock>
+        <TextBlock Text="详细信息面板·标题" Style="{StaticResource tbDetailedTitle}" Grid.Row="1"></TextBlock>
+        <TextBlock Text="详细信息面板·内容" Style="{StaticResource tbDetailed}" Grid.Row="2"></TextBlock>
+        <TextBlock Text="关于系统·标题" Style="{StaticResource tbAboutTitle}" Grid.Row="3"></TextBlock>
+        <TextBlock Text="关于系统·内容" Style="{StaticResource tbAbout}" Grid.Row="4"></TextBlock>
+        <TextBlock Text="添加面板·标题" Style="{StaticResource tbAddDesc}" Grid.Row="5"></TextBlock>
+        <TextBlock Text="添加面板·描述" Style="{StaticResource tbReportTitle}" Grid.Row="6"></TextBlock>
+        <TextBlock Text="报表详细信息·标题" Style="{StaticResource tbReportHeader}" Grid.Row="7"></TextBlock>
+        <TextBlock Text="报表详细信息·头部" Style="{StaticResource tbReportContent}" Grid.Row="8"></TextBlock>
+        <TextBlock Text="报表详细信息·内容" Style="{StaticResource tbMessage}" Grid.Row="9"></TextBlock>
+        
     </Grid>
 </UserControl>
