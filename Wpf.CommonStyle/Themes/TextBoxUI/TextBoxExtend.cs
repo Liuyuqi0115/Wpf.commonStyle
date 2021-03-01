@@ -16,7 +16,7 @@ namespace Wpf.CommonStyle.Themes.TextBoxUI
             set { SetValue(WaterTextProperty, value); }
         }
         public static readonly DependencyProperty WaterTextProperty =
-          DependencyProperty.Register("WaterText", typeof(string), typeof(TextBoxExtend));
+          DependencyProperty.Register("WaterText", typeof(string), typeof(TextBoxExtend),new PropertyMetadata("请输入"));
 
 
 
