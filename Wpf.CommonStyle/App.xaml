@@ -4,9 +4,19 @@
              xmlns:local="clr-namespace:Wpf.CommonStyle"
              StartupUri="MainWindow.xaml">
     <Application.Resources>
-
-        <ResourceDictionary Source="pack://application:,,,/Wpf.CommonStyle;component/Themes/Button/ButtonStyle.xaml" > 
-            
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="pack://application:,,,/Wpf.CommonStyle;component/Themes/Button/ButtonStyle.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/Wpf.CommonStyle;component/Themes/ComboBox/ComboBoxStyle.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/Wpf.CommonStyle;component/Themes/ContextMen/ContextMenStyle.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/Wpf.CommonStyle;component/Themes/DataGrid/DataGridStyle.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/Wpf.CommonStyle;component/Themes/PasswordBox/PasswordBoxStyle.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/Wpf.CommonStyle;component/Themes/TextBlock/TextBlockStyle.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/Wpf.CommonStyle;component/Themes/TextBox/TextBoxStyle.xaml" />
+            </ResourceDictionary.MergedDictionaries>
         </ResourceDictionary>
+       
+       
+
     </Application.Resources>
 </Application>

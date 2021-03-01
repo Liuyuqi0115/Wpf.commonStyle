@@ -39,6 +39,43 @@
                     </control:ButtonStyleControl>
                 </TabControl>
             </TabItem>
+            <TabItem Header="textBox样式">
+                <TabControl>
+                    <control:TextBoxControl>
+                    </control:TextBoxControl>
+                </TabControl>
+            </TabItem>
+            <TabItem Header="ComboBox样式">
+                <TabControl>
+                    <control:ComboBoxControl>
+                    </control:ComboBoxControl>
+                </TabControl>
+            </TabItem>
+            <TabItem Header="ContextMen样式">
+                <TabControl>
+                    <control:ContextMenControl>
+                    </control:ContextMenControl>
+                </TabControl>
+            </TabItem>
+            <TabItem Header="DataGrid样式">
+                <TabControl>
+                    <control:DataGridControl>
+                    </control:DataGridControl>
+                </TabControl>
+            </TabItem>
+            <TabItem Header="PasswordBox样式">
+                <TabControl>
+                    <control:PasswordBoxControl>
+                    </control:PasswordBoxControl>
+                </TabControl>
+            </TabItem>
+            <TabItem Header="TexBlock样式">
+                <TabControl>
+                    <control:TexBlockControl>
+                    </control:TexBlockControl>
+                </TabControl>
+            </TabItem>
         </TabControl>
+        
     </Grid>
 </Window>
