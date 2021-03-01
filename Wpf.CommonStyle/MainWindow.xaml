@@ -4,9 +4,41 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Wpf.CommonStyle"
+       xmlns:control="clr-namespace:Wpf.CommonStyle.Control"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+          
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition>
+                
+            </ColumnDefinition>
+            <ColumnDefinition>
+
+            </ColumnDefinition>
+            <ColumnDefinition>
+
+            </ColumnDefinition>
+            <ColumnDefinition>
+
+            </ColumnDefinition>
+            <ColumnDefinition>
+
+            </ColumnDefinition>
+        </Grid.ColumnDefinitions>
+       
+        <TabControl x:Name="mainContent" Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="5">
+            <TabItem Header="button样式">                 
+                <TabControl>
+                    <control:ButtonStyleControl>
+
+                    </control:ButtonStyleControl>
+                </TabControl>
+            </TabItem>
+        </TabControl>
     </Grid>
 </Window>

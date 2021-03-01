@@ -12,20 +12,17 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
-using Wpf.CommonStyle.Control;
 
-namespace Wpf.CommonStyle
+namespace Wpf.CommonStyle.Control
 {
     /// <summary>
-    /// MainWindow.xaml 的交互逻辑
+    /// ButtonStyleControl.xaml 的交互逻辑
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class ButtonStyleControl : UserControl
     {
-        public MainWindow()
+        public ButtonStyleControl()
         {
             InitializeComponent();
         }
-
-        
     }
 }
