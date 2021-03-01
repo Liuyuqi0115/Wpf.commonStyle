@@ -26,6 +26,9 @@ namespace Wpf.CommonStyle
             InitializeComponent();
         }
 
-        
+        private void test()
+        {
+           
+        }
     }
 }

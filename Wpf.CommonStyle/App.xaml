@@ -6,13 +6,13 @@
     <Application.Resources>
         <ResourceDictionary>
             <ResourceDictionary.MergedDictionaries>
-                <ResourceDictionary Source="pack://application:,,,/Wpf.CommonStyle;component/Themes/Button/ButtonStyle.xaml" />
-                <ResourceDictionary Source="pack://application:,,,/Wpf.CommonStyle;component/Themes/ComboBox/ComboBoxStyle.xaml" />
-                <ResourceDictionary Source="pack://application:,,,/Wpf.CommonStyle;component/Themes/ContextMen/ContextMenStyle.xaml" />
-                <ResourceDictionary Source="pack://application:,,,/Wpf.CommonStyle;component/Themes/DataGrid/DataGridStyle.xaml" />
-                <ResourceDictionary Source="pack://application:,,,/Wpf.CommonStyle;component/Themes/PasswordBox/PasswordBoxStyle.xaml" />
-                <ResourceDictionary Source="pack://application:,,,/Wpf.CommonStyle;component/Themes/TextBlock/TextBlockStyle.xaml" />
-                <ResourceDictionary Source="pack://application:,,,/Wpf.CommonStyle;component/Themes/TextBox/TextBoxStyle.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/Wpf.CommonStyle;component/Themes/ButtonUI/ButtonStyle.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/Wpf.CommonStyle;component/Themes/ComboBoxUI/ComboBoxStyle.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/Wpf.CommonStyle;component/Themes/ContextMenUI/ContextMenStyle.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/Wpf.CommonStyle;component/Themes/DataGridUI/DataGridStyle.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/Wpf.CommonStyle;component/Themes/PasswordBoxUI/PasswordBoxStyle.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/Wpf.CommonStyle;component/Themes/TextBlockUI/TextBlockStyle.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/Wpf.CommonStyle;component/Themes/TextBoxUI/TextBoxStyle.xaml" />
             </ResourceDictionary.MergedDictionaries>
         </ResourceDictionary>
        
