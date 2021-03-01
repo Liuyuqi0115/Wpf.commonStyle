@@ -13,6 +13,7 @@
                 <ResourceDictionary Source="pack://application:,,,/Wpf.CommonStyle;component/Themes/PasswordBoxUI/PasswordBoxStyle.xaml" />
                 <ResourceDictionary Source="pack://application:,,,/Wpf.CommonStyle;component/Themes/TextBlockUI/TextBlockStyle.xaml" />
                 <ResourceDictionary Source="pack://application:,,,/Wpf.CommonStyle;component/Themes/TextBoxUI/TextBoxStyle.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/Wpf.CommonStyle;component/Themes/TextBoxUI/TextBoxExtendStyel.xaml" />
             </ResourceDictionary.MergedDictionaries>
         </ResourceDictionary>
        

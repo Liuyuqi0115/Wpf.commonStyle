@@ -4,6 +4,7 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:Wpf.CommonStyle.Control"
+             xmlns:water="clr-namespace:Wpf.CommonStyle.Themes.TextBoxUI"
              mc:Ignorable="d" 
              d:DesignHeight="450" d:DesignWidth="800">
     <Grid>
@@ -16,6 +17,9 @@
             <TextBlock Text="默认:"></TextBlock>
             <TextBox Text="默认"></TextBox>
         </StackPanel>
-      
+        <StackPanel Orientation="Horizontal" Grid.Row="1">
+            <TextBlock Text="默认:"></TextBlock>
+            <water:TextBoxExtend ></water:TextBoxExtend>
+        </StackPanel>
     </Grid>
 </UserControl>
