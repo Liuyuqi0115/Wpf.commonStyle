@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
 
-namespace Wpf.CommonStyle.Themes.TextBoxUI
+namespace Wpf.CommonStyle.Themes.ExtendsStyle.TextBoxExtend
 {
   public  class TextBoxExtend:TextBox
     {

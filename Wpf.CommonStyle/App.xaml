@@ -6,14 +6,14 @@
     <Application.Resources>
         <ResourceDictionary>
             <ResourceDictionary.MergedDictionaries>
-                <ResourceDictionary Source="pack://application:,,,/Wpf.CommonStyle;component/Themes/ButtonUI/ButtonStyle.xaml" />
-                <ResourceDictionary Source="pack://application:,,,/Wpf.CommonStyle;component/Themes/ComboBoxUI/ComboBoxStyle.xaml" />
-                <ResourceDictionary Source="pack://application:,,,/Wpf.CommonStyle;component/Themes/ContextMenUI/ContextMenStyle.xaml" />
-                <ResourceDictionary Source="pack://application:,,,/Wpf.CommonStyle;component/Themes/DataGridUI/DataGridStyle.xaml" />
-                <ResourceDictionary Source="pack://application:,,,/Wpf.CommonStyle;component/Themes/PasswordBoxUI/PasswordBoxStyle.xaml" />
-                <ResourceDictionary Source="pack://application:,,,/Wpf.CommonStyle;component/Themes/TextBlockUI/TextBlockStyle.xaml" />
-                <ResourceDictionary Source="pack://application:,,,/Wpf.CommonStyle;component/Themes/TextBoxUI/TextBoxStyle.xaml" />
-                <ResourceDictionary Source="pack://application:,,,/Wpf.CommonStyle;component/Themes/TextBoxUI/TextBoxExtendStyel.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/Wpf.CommonStyle;component/Themes/BaseStyle/ButtonUI/ButtonStyle.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/Wpf.CommonStyle;component/Themes/BaseStyle/ComboBoxUI/ComboBoxStyle.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/Wpf.CommonStyle;component/Themes/BaseStyle/ContextMenUI/ContextMenStyle.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/Wpf.CommonStyle;component/Themes/BaseStyle/DataGridUI/DataGridStyle.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/Wpf.CommonStyle;component/Themes/BaseStyle/PasswordBoxUI/PasswordBoxStyle.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/Wpf.CommonStyle;component/Themes/BaseStyle/TextBlockUI/TextBlockStyle.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/Wpf.CommonStyle;component/Themes/BaseStyle/TextBoxUI/TextBoxStyle.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/Wpf.CommonStyle;component/Themes/ExtendsStyle/TextBoxExtend/TextBoxExtendStyel.xaml" />
             </ResourceDictionary.MergedDictionaries>
         </ResourceDictionary>
        

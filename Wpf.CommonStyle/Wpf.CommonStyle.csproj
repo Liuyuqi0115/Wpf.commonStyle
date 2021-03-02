@@ -55,7 +55,7 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Compile Include="Themes\TextBoxUI\TextBoxExtend.cs" />
+    <Compile Include="Themes\ExtendsStyle\TextBoxExtend\TextBoxExtend.cs" />
     <Page Include="Control\ButtonStyleControl.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -84,7 +84,7 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Themes\ButtonUI\ButtonStyle.xaml">
+    <Page Include="Themes\BaseStyle\ButtonUI\ButtonStyle.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -121,31 +121,31 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Page Include="Themes\ComboBoxUI\ComboBoxStyle.xaml">
+    <Page Include="Themes\BaseStyle\ComboBoxUI\ComboBoxStyle.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Themes\ContextMenUI\ContextMenStyle.xaml">
+    <Page Include="Themes\BaseStyle\ContextMenUI\ContextMenStyle.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Themes\DataGridUI\DataGridStyle.xaml">
+    <Page Include="Themes\BaseStyle\DataGridUI\DataGridStyle.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Themes\PasswordBoxUI\PasswordBoxStyle.xaml">
+    <Page Include="Themes\BaseStyle\PasswordBoxUI\PasswordBoxStyle.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Themes\TextBlockUI\TextBlockStyle.xaml">
+    <Page Include="Themes\BaseStyle\TextBlockUI\TextBlockStyle.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Themes\TextBoxUI\TextBoxExtendStyel.xaml">
+    <Page Include="Themes\ExtendsStyle\TextBoxExtend\TextBoxExtendStyel.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Themes\TextBoxUI\TextBoxStyle.xaml">
+    <Page Include="Themes\BaseStyle\TextBoxUI\TextBoxStyle.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -176,5 +176,6 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

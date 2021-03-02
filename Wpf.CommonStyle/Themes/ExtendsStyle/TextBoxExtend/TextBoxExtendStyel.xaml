@@ -1,6 +1,6 @@
 ﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
                     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-                    xmlns:local="clr-namespace:Wpf.CommonStyle.Themes.TextBoxUI">
+                    xmlns:local="clr-namespace:Wpf.CommonStyle.Themes.ExtendsStyle.TextBoxExtend">
     <Style TargetType="{x:Type local:TextBoxExtend}" >
         <Setter Property="TextBoxCornerRadius" Value="3"/>
         <Setter Property="BorderThickness" Value="1" />
