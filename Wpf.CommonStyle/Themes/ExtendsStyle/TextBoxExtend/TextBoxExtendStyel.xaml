@@ -53,17 +53,25 @@
                         </Trigger>
                         <Trigger Property="IsKeyboardFocused" Value="True">
                             <Setter TargetName="waterBorder" Property="Opacity" Value="0"></Setter>
-                          
+                            <Setter Property="BorderBrush" Value="#FF569DE5"/>
                         </Trigger>
                         <Trigger Property="IsMouseOver" Value="true">
-                           
+                            <Setter Property="BorderBrush" Value="#FF7EB4EA"/>
+                        </Trigger>
+                        <Trigger Property="IsEnabled" Value="False">
+                            <Setter Property="Opacity" Value="0.6" />
                         </Trigger>
                     </ControlTemplate.Triggers>
                 </ControlTemplate>
             </Setter.Value>
         </Setter>
         <Style.Triggers>
-            
+            <Trigger Property="Validation.HasError" Value="true">
+                <Setter Property="ToolTip" Value="{Binding RelativeSource=
+                            {x:Static RelativeSource.Self}, 
+                            Path=(Validation.Errors)[0].ErrorContent}"/>
+                <Setter Property="BorderBrush" Value="Red"/>
+            </Trigger>
         </Style.Triggers>
     </Style>
 </ResourceDictionary>
